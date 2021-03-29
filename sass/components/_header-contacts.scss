@@ -1,0 +1,36 @@
+.header-contacts {
+  display: flex;
+  margin-left: auto;
+}
+
+.header-contacts > li:not(:last-child) {
+  margin-right: 50px;
+}
+
+.header-contacts-link {
+  font-family: var(--main-font);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #757575;
+  transition: color 250ms var(--timing-function);
+}
+
+.header-contacts-link:hover,
+.header-contacts-link:focus {
+  color: var(--accent-color-primary);
+}
+
+.header-contacts-link:hover .contacts-link-icon,
+.header-contacts-link:focus .contacts-link-icon {
+  fill: var(--accent-color-primary);
+}
+
+.contacts-link-icon {
+  width: 16px;
+  height: 12px;
+  margin-right: 10px;
+  fill: #757575;
+}
