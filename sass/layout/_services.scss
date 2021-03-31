@@ -5,10 +5,10 @@
 .services-list {
   display: flex;
   justify-content: space-between;
-}
 
-.services-list > li:not(:last-child) {
-  margin-right: 30px;
+  & > li:not(:last-child) {
+    margin-right: 30px;
+  }
 }
 
 .services-list-item {

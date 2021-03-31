@@ -46,11 +46,11 @@
   outline: none;
   cursor: pointer;
   transition: background-color 250ms var(--timing-function);
-}
 
-.hero-btn:active {
-  background-color: #188ce8;
-  border: none;
+  &:active {
+    background-color: #188ce8;
+    border: none;
+  }
 }
 
 .active {
