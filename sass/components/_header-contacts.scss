@@ -1,4 +1,4 @@
-.header-contacts {
+.contacts-list {
   display: flex;
   margin-left: auto;
 
@@ -7,7 +7,7 @@
   }
 }
 
-.header-contacts-link {
+.contacts-list__link {
   font-family: var(--main-font);
   font-style: normal;
   font-weight: 500;
@@ -23,14 +23,14 @@
   }
 }
 
-.contacts-link-icon {
+.contacts-list__icon {
   width: 16px;
   height: 12px;
   margin-right: 10px;
   fill: #757575;
 
-  .header-contacts-link:hover &,
-  .header-contacts-link:focus & {
+  .contacts-list__link:hover &,
+  .contacts-list__link:focus & {
     fill: var(--accent-color-primary);
   }
 }

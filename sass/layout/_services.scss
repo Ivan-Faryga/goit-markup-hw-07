@@ -1,8 +1,8 @@
-.our-services {
+.services {
   padding-bottom: 94px;
 }
 
-.services-list {
+.services__list {
   display: flex;
   justify-content: space-between;
 
@@ -11,11 +11,11 @@
   }
 }
 
-.services-list-item {
+.services__item {
   position: relative;
 }
 
-.services-overlay {
+.services__overlay {
   position: absolute;
   left: 0;
   bottom: 0;
@@ -27,7 +27,7 @@
   align-items: center;
 }
 
-.overlay-text {
+.services__text {
   font-family: var(--main-font);
   font-weight: 700;
   font-size: 14px;

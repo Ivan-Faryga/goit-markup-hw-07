@@ -1,9 +1,9 @@
-.nav-section {
+.navigation {
   display: flex;
   align-items: center;
 }
 
-.nav-list {
+.menu {
   display: flex;
   align-items: center;
 
@@ -12,7 +12,7 @@
   }
 }
 
-.nav-list-link {
+.menu__link {
   position: relative;
   font-family: var(--main-font);
   font-style: normal;

@@ -4,7 +4,7 @@
   justify-content: center;
 }
 
-.clients-list-link {
+.clients-list__link {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -21,7 +21,7 @@
   }
 }
 
-.clients-list-item {
+.clients-list__item {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -31,15 +31,15 @@
   }
 }
 
-.clients-list-icon {
+.clients-list__icon {
   display: block;
   align-items: center;
   justify-content: center;
   fill: #afb1b8;
   transition: fill 250ms var(--timing-function);
 
-  .clients-list-link:hover &,
-  .clients-list-link:focus & {
+  .clients-list__link:hover &,
+  .clients-list__link:focus & {
     fill: var(--accent-color-primary);
   }
 }

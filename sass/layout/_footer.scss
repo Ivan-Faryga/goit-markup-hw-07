@@ -4,7 +4,7 @@
   /* text-align: left; */
 }
 
-.footer-content-placing {
+.footer-flex__placing {
   text-align: left;
   display: block;
 
@@ -19,12 +19,12 @@
   }
 }
 
-.df {
+.footer-flex {
   display: flex;
   align-items: baseline;
 }
 
-.footer-logo {
+.footer__logo {
   margin-bottom: 20px;
 }
 
@@ -32,7 +32,7 @@
   margin-bottom: 9px;
 }
 
-.adress-link-location {
+.adress__location {
   font-family: var(--main-font);
   font-weight: 400;
   font-size: 14px;
@@ -47,7 +47,7 @@
   }
 }
 
-.adress-link {
+.adress__link {
   font-family: var(--main-font);
   font-weight: 400;
   font-size: 14px;
@@ -73,11 +73,11 @@
   align-items: center;
 }
 
-.social-list-item:not(:last-child) {
+.social-list__item:not(:last-child) {
   margin-right: 10px;
 }
 
-.social-list-link {
+.social-list__link {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -93,7 +93,7 @@
   }
 }
 
-.social-list-icon {
+.team-social-list__icon {
   /* display: block; */
   width: 20px;
   height: 20px;
@@ -103,12 +103,12 @@
   transition: fill 250ms var(--timing-function);
 }
 
-.footer-form-group {
+.sign-up {
   display: flex;
   flex-direction: column;
 }
 
-.footer-form-text {
+.sign-up__text {
   font-weight: 700;
   /* font-size: 14px; */
   line-height: 1.14;
@@ -119,11 +119,11 @@
   margin-bottom: 20px;
 }
 
-.footer-form {
+.sign-up-form {
   display: flex;
 }
 
-.footer-form-input {
+.sign-up-form__input {
   margin-right: 12px;
   width: 358px;
   height: 50px;
@@ -135,7 +135,7 @@
   border-radius: 4px;
 }
 
-.footer-btn {
+.sign-up-form__btn {
   display: inline-flex;
   border-radius: 4px;
   border: 1px solid transparent;
@@ -156,7 +156,7 @@
   }
 }
 
-.footer-btn-icon {
+.sign-up-form__btn-icon {
   display: inline-flex;
   align-items: baseline;
   justify-content: center;
